@@ -26,13 +26,13 @@ int main() {
     int N,M,result;
     char oper;
     
-    printf("\n>>> Ingrese un número entero: ");     
+    printf("\n>>> Ingrese un numero entero: ");     
     scanf("%d", &N);                                
     
-    printf("\n>>> Ingrese otro número entero: ");   
+    printf("\n>>> Ingrese otro numero entero: ");   
     scanf("%d", &M);                                
     
-    printf("\nIngrese el operador aritmético ( + , - , * , / ): "); 
+    printf("\nIngrese el operador aritmetico ( + , - , * , / ): "); 
     scanf(" %c",&oper);         
     
     switch(oper){          
@@ -49,7 +49,7 @@ int main() {
             printf("\n>>> El resultado es %.2f\n", division(N,M)); 
             break;
         default:
-            printf("\nOperador no válido");         
+            printf("\nOperador no valido");         
     }    
     
     return 0;
