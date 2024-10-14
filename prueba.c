@@ -3,7 +3,7 @@ esté implementado en una función específica.*/
 
 #include <stdio.h>
 
-// Todas las funciones devuelven enteros, excepto la división
+// Todas las funciones devuelven enteros, excepto la división.
 int suma(int termino1, int termino2) {
     return termino1 + termino2;
 }
